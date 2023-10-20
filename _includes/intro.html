@@ -1,0 +1,38 @@
+<div>
+  <div class="row rounded border border-light shadow mx-0 p-lg-3 p-3">
+
+    <!-- Job Advert -->
+      <!-- <div class="alert alert-primary border border-primary rounded px-3" role="alert">
+      <p> I am actively looking for entry-level full-time <b>Computer Vision Engineer</b> positions.</p>
+      <p>
+        I have 3+ years of experience in 2D & 3D Object Detection, Segmentation, Tracking, SLAM, Sensor Fusion;
+        I'm proficient in Python, C++, MATLAB, PyTorch, OpenCV, Open3D (PCL), Git, AWS and Docker.
+      </p>
+      <p> Reach out on <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin }}" rel="noopener" target="_blank">LinkedIn</a>
+        or <a href="mailto:aks9108@nyu.edu">Email</a> me if you or someone you know is hiring 🙂</p>
+    </div> -->
+
+    <!-- Picture -->
+    <div class="col-md-6 my-auto mx-auto">
+      <!-- Image -->
+      <div class="row">
+        <img class="img-fluid img-thumbnail rounded mx-auto d-block p-0 w-75" src="/assets/images/profile.jpeg" alt="An image of Aakash Shetty">
+        <span class="text-center py-5">{% include socials.html %}</span>
+      </div>
+    </div>
+
+    <!-- About Me -->
+    <div class="col-lg-6">
+      <div class="row ">
+        <h1 class="text-center" style="font-size: 2.75rem;">
+        <span>{{site.firstname}}
+            <span class="text-muted">{{site.secondname}}</span> </span></h1>
+        <div>
+        {% capture my_include %}{% include about.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,10 @@
+# Research
+- title: A Review of Object detection models
+  description: "Comparision of CNN based object detection techniques based on Fps, accuracy and processing rate for real time applications."
+  code: https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=k49JrTUAAAAJ
+  image: /assets/images/odr.png
+
+- title: Skin Cancer Detection using Image processing
+  description: "Reviewed different methods of classifier such as KNN, Random Forest, ANN, etc. and compared all classifiers based on Specificity, Accuracy and Precision."
+  code: https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=k49JrTUAAAAJ
+  image: /assets/images/scd.jpeg

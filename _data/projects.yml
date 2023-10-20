@@ -1,0 +1,40 @@
+# Projects
+- title: SuperSLAM <span style="color:red">[InProgress]</span>
+  description: "SuperSLAM: Open Source Framework for Deep Learning based Visual SLAM"
+  code: https://github.com/adityamwagh/SuperSLAM
+  image: /assets/images/room.png
+
+- title: SHIVA
+  description: Smart Helmet for Impaired Vision Assistance using YOLOv4, OCR, Voice Assistance, Raspberry Pi and Maps.
+  code: https://github.com/AAKASHKSHETTY/SHIVA-Smart_Helmet_for_Impaired_Vision_Assistance
+  image: /assets/images/SHIVA.png
+
+- title: Nasdaq 100 Trading Strategy
+  description: A trading strategy using indicators such as SMA, Breakout High-Low, Average True Range, MACD, and Bollinger Bands for the selection of top-performing stocks from the Nasdaq 100 index. 
+  code: https://github.com/AAKASHKSHETTY/Trading_Strategy_Nasdaq_100
+  image: /assets/images/tsn.png
+
+- title: Big Data Churn Analytics
+  description: A churn prediction software with big data pipeline including Kafka and spark streaming for log aggregation and Hadoop cluster for data storage.
+  code: https://github.com/AAKASHKSHETTY/Big_Data_Music_Churn_Prediction
+  image: /assets/images/bdc.png
+
+- title: Iris Recognition System
+  description: Iris recognition System in python, implemented segmentation, localization, unwrapping, and encoding.
+  code: https://github.com/AAKASHKSHETTY/Iris-Recognition
+  image: /assets/images/irs.png
+
+- title: Alive Museum - AR Museum
+  description:  An augmented reality app using ARFoundations and Vuforia in Unity to create a dynamic and interactive museum experience.
+  code: https://github.com/AAKASHKSHETTY/Alivebuild-AR_Project
+  image: /assets/images/arm.png
+
+- title: Music Genre dataset EDA and Modeling
+  description:  Model evaluation by comparing the performance of techniques like Gradient Boosting, Logistic Regression, SVM, K-means clustering, and more, using metrics such as accuracy, precision, and recall.
+  code: https://github.com/AAKASHKSHETTY/Music_Genre_Prediction-DataAnalysis
+  image: /assets/images/mga.png
+
+- title: NGOrphan
+  description: A Dynamic website for an NGO for Orphans in Python using HTML, CSS, and Django to make adoption process simpler, procure donations and update events held by the NGO.
+  code: https://github.com/AAKASHKSHETTY/NGOrphan
+  image: /assets/images/ngo.png

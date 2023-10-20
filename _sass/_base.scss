@@ -1,0 +1,161 @@
+// Basic Styling
+html {
+    font-family: $font-family;
+    font-size: $font-size;
+    letter-spacing: $letter-spacing;
+    line-height: $line-height
+}
+
+body {
+    font-family: $font-family;
+    transition: ease all 0.5s;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-size: $font-size;
+    letter-spacing: $letter-spacing;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}
+
+header {
+    -webkit-backdrop-filter: blur(25px);
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(25px);
+    transform: translateZ(0);
+}
+
+// Headers
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 1em !important;
+    letter-spacing: -1px !important;
+    margin-top: 1em !important;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+b,
+strong {
+    font-weight: 600 !important;
+}
+
+// Icons
+.icons {
+    width: 2em;
+    height: 2em;
+}
+
+// Blog List
+.blog-list {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+// GitHub Icon
+svg.svg-inline--fa path {
+    fill: black;
+}
+
+a,
+u {
+    text-decoration: underline;
+    text-underline-offset: 25% !important;
+}
+
+// Content
+.content {
+    max-width: $content-width;
+}
+
+// Heart
+.heart {
+    color: #e25555;
+    font-size: 1.25em;
+}
+
+.rounded {
+    border-radius: 1.25rem !important;
+}
+
+/* Lists */
+ul,
+ol,
+dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+li p {
+    margin-bottom: 0px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: .5rem;
+}
+
+/* Misc */
+hr {
+    position: relative;
+    margin: 1.5rem 0;
+    border: 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #fff;
+}
+
+abbr {
+    font-size: 85%;
+    font-weight: bold;
+    color: #555;
+    text-transform: uppercase;
+}
+
+abbr[title] {
+    cursor: help;
+    border-bottom: 1px dotted #e5e5e5;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+/* Remove border from toggler */
+.navbar-toggler {
+    border: 0 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+/* Lines of the Toggler */
+.toggler-icon {
+    width: 32px;
+    height: 3px;
+    background-color: #777777;
+    display: block;
+    transition: all 0.2s;
+}
+
+/* Adds Space between the lines */
+.middle-bar {
+    margin: 7px auto;
+}
+
+@media (max-width: 767.98px) {
+    .vh-100-small {
+        height: 100vh;
+    }
+}

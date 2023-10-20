@@ -1,0 +1,16 @@
+--- 
+--- 
+// Variables
+$font-family: Jost, "Avenir Next LT Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+$font-size: 1.125rem !important;
+$line-height: 1.5 !important;
+$letter-spacing: 0 !important;
+$spacing-unit: 2rem !important;
+$content-width: 66rem;
+$enable-cssgrid: true;
+$enable-dark-mode: true;
+
+@charset "utf-8";
+@import "bootstrap/bootstrap";
+@import "base", "table", "syntax-highlighting", "images", "fonts";

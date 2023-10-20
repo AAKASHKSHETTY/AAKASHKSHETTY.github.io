@@ -1,0 +1,18 @@
+<div>
+    <h1 class="text-center" id="research">Research</h1>
+    <p class="text-center">
+      These are my Publications. Have a look at my <a class="#" href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=k49JrTUAAAAJ" target="_blank">Google Scholar</a> profile.
+    </p>
+    <div class="grid ">
+      {% for research in site.data.research %}
+      <div class="g-col-12 g-col-md-6 text-center p-3 rounded shadow">
+        <img class="img-fluid rounded" src="{{research.image}}" alt="{{research.description}}">
+        <h3 class="my-3 text-capitalize">{{research.title}}</h3>
+        <p>{{research.description}}</p>
+        <!-- <a class="btn btn-primary" href="{{project.docs}}" target="_blank">Docs</a> -->
+        <a class="btn btn-success" href="{{research.code}}" target="_blank">Paper</a>
+      </div>
+      {% endfor %}
+    </div>
+  
+  </div>
