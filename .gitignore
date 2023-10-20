@@ -1,0 +1,11 @@
+_site
+.sass-cache
+.jekyll-cache
+.gitignore
+images/old_icon.png
+portfolio_website.code-workspace
+clean-portfolio.jpg:Zone.Identifier
+.jekyll-metadata
+vendor
+.bundle
+.vscode
