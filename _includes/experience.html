@@ -1,0 +1,48 @@
+<style>
+    .card {
+        box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+    }
+    
+    .width-90 {
+        width: 90px!important;
+    }
+    .rounded-3 {
+        border-radius: 0.5rem !important;
+    }
+    
+    a {
+    text-decoration:none;    
+    }
+</style>
+
+<div>
+    <h1 class="text-center" id="experience">Experience</h1>
+</div>
+<div class="container">
+    <div class="row">
+        {% for experience in site.data.experience %}
+        <div class="col-xl-12">
+            <div class="card mb-3 card-body">
+                <div class="row align-items-center">
+                    <div class="col-auto">
+                          <img src="{{experience.image}}" class="width-90 rounded-3" alt="">
+                    </div>
+                    <div class="col">
+                        <div class="overflow-hidden flex-nowrap">
+                            <h6 class="mb-1">
+                                {{experience.company}}
+                            </h6>
+                            <span class="text-muted d-block mb-2 small">
+                                {{experience.role}}
+                          </span>
+                        </div>
+                        {% if experience.description %}
+                            Read my experience <a href="{{experience.description}}" target="_blank">blog</a> here
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
