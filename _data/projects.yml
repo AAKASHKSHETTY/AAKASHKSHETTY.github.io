@@ -34,7 +34,7 @@
   code: https://github.com/AAKASHKSHETTY/Music_Genre_Prediction-DataAnalysis
   image: /assets/images/mga.png
 
-- title: NGOrphan
-  description: A Dynamic website for an NGO for Orphans in Python using HTML, CSS, and Django to make adoption process simpler, procure donations and update events held by the NGO.
-  code: https://github.com/AAKASHKSHETTY/NGOrphan
-  image: /assets/images/ngo.png
+- title: AWS based Heart Health and Nutrition Tracker
+  description: Cloud based web app to predict heart diseases and provide personalized dietary suggestions for heart patients. Employed XGBoost in Python along with AWS Sagemaker, ES, EC2, Lambda. 
+  code: https://github.com/AAKASHKSHETTY/HeartHealth_NutritionTracker
+  image: /assets/images/hea.png

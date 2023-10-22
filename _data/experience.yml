@@ -3,19 +3,23 @@
 - company: AI4CE Lab
   role: Machine Learning Intern
   description: false
+  time: July 2023 - Present
   image: /assets/images/aif.png
 
 - company: New York University
   role: Big Data Course Assistant
   description: false 
+  time: September 2022 - May 2023
   image: /assets/images/nyu.jpeg
 
 - company: Sony
   role: Machine Learning Algorithm Developer Intern
+  time: June 2022 - August 2022
   description: https://aakashkshetty.github.io/SonyExperience/Article.pdf
   image: /assets/images/sony.jpeg
 
 - company: The Sparks Foundation
   role: Web Developer Intern
+  time: April 2021 - May 2021
   description: false
   image: /assets/images/tsf.jpeg

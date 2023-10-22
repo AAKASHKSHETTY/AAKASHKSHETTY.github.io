@@ -29,15 +29,16 @@
                     </div>
                     <div class="col">
                         <div class="overflow-hidden flex-nowrap">
-                            <h6 class="mb-1">
+                            <h5 class="mb-1">
                                 {{experience.company}}
-                            </h6>
+                            </h5>
                             <span class="text-muted d-block mb-2 small">
                                 {{experience.role}}
+                                <p>{{experience.time}}</p>
                           </span>
                         </div>
                         {% if experience.description %}
-                            Read my experience <a href="{{experience.description}}" target="_blank">blog</a> here
+                        <small>Read my experience <a href="{{experience.description}}" target="_blank">blog</a> here</small>
                         {% endif %}
                     </div>
                 </div>
