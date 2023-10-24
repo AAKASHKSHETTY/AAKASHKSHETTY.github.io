@@ -23,4 +23,5 @@
   <link href="{{ '/assets/css/style.css' | prepend: site.baseurl }}" rel="stylesheet">
   <link href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" rel="canonical">
   <link type="application/rss+xml" href="{{ /feed.xml | prepend: site.baseurl | prepend: site.url }}" title="{{ site.title }}" rel="alternate">
+  {% include analytics.html %}
 </head>
