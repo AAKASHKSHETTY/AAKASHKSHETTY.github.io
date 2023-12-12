@@ -1,9 +1,15 @@
 # experience
 
+- company: TCG Digital
+  role: Data Science Intern
+  description: false
+  time: November 2023 - Present
+  image: /assets/images/tcg.jpeg
+
 - company: AI4CE Lab
   role: Machine Learning Intern
   description: false
-  time: July 2023 - Present
+  time: July 2023 - November 2023
   image: /assets/images/aif.png
 
 - company: New York University
