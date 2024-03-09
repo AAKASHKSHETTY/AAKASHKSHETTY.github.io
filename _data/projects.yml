@@ -1,8 +1,8 @@
 # Projects
-- title: SuperSLAM <span style="color:red">[InProgress]</span>
-  description: "SuperSLAM: Open Source Framework for Deep Learning based Visual SLAM"
-  code: https://github.com/adityamwagh/SuperSLAM
-  image: /assets/images/room.png
+- title: Custom Model for Object detection
+  description: "Build a custom object detection Model using MS COCO dataset, Darknet and Yolo."
+  code: https://github.com/AAKASHKSHETTY/Custom_Model_for_Object_Detection
+  image: /assets/images/cus_obj.jpeg
 
 - title: SHIVA
   description: Smart Helmet for Impaired Vision Assistance using YOLOv4, OCR, Voice Assistance, Raspberry Pi and Maps.
