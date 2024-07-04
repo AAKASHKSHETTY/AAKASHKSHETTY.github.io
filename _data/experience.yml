@@ -21,7 +21,7 @@
 - company: Sony
   role: Machine Learning Algorithm Developer Intern
   time: June 2022 - August 2022
-  description: https://aakashkshetty.github.io/SonyExperience/Article.pdf
+  # description: https://aakashkshetty.github.io/SonyExperience/Article.pdf
   image: /assets/images/sony.jpeg
 
 - company: The Sparks Foundation
