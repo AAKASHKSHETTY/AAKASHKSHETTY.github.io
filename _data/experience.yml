@@ -1,13 +1,13 @@
 # experience
 
 - company: TCG Digital
-  role: Data Scientist Intern
+  role: Data Scientist
   description: false
   time: November 2023 - Present
   image: /assets/images/tcg.jpeg
 
 - company: AI4CE Lab
-  role: Machine Learning Intern
+  role: Machine Learning Researcher
   description: false
   time: July 2023 - October 2023
   image: /assets/images/aif.png
@@ -19,13 +19,13 @@
   image: /assets/images/nyu.jpeg
 
 - company: Sony
-  role: Machine Learning Algorithm Developer Intern
+  role: Machine Learning Algorithm Developer
   time: June 2022 - August 2022
   # description: https://aakashkshetty.github.io/SonyExperience/Article.pdf
   image: /assets/images/sony.jpeg
 
 - company: The Sparks Foundation
-  role: Web Developer Intern
+  role: Web Developer
   time: April 2021 - May 2021
   description: false
   image: /assets/images/tsf.jpeg
