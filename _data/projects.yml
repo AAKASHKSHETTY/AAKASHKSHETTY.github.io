@@ -25,7 +25,7 @@
   image: /assets/images/bla.png
 
 - title: Markdown Notes Application
-  description: A bank ledger system that utilizes the event sourcing pattern to maintain a transaction history. The system allows users to deposit funds, withdraw funds, and check balances.
+  description: A simple and intuitive Markdown-based notepad built with React, HTML, CSS, and JavaScript, using Firebase for backend storage. This application allows users to create, edit, and save notes in Markdown format.
   code: https://github.com/AAKASHKSHETTY/markdown-notes-app-React
   image: /assets/images/mna.png
 
