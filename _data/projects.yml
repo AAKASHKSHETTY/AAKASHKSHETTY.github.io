@@ -3,53 +3,99 @@
   description: Smart Helmet for Impaired Vision Assistance using YOLOv4, OCR, Voice Assistance, Raspberry Pi and Maps.
   code: https://github.com/AAKASHKSHETTY/SHIVA-Smart_Helmet_for_Impaired_Vision_Assistance
   image: /assets/images/SHIVA.png
+  technologies:
+    - Python
+    - PyTorch
+    - OpenCV
+    - YOLOv3
 
 - title: Nasdaq 100 Trading Strategy
   description: A trading strategy using indicators such as SMA, Breakout High-Low, Average True Range, MACD, and Bollinger Bands for the selection of top-performing stocks from the Nasdaq 100 index. 
   code: https://github.com/AAKASHKSHETTY/Trading_Strategy_Nasdaq_100
   image: /assets/images/tsn.png
+  technologies:
+    - Python
+    - Pandas
+    - Excel
+    - sklearn
 
 - title: AWS based Heart Health and Nutrition Tracker
   description: Cloud based web app to predict heart diseases and provide personalized dietary suggestions for heart patients. Employed XGBoost in Python along with AWS Sagemaker, ES, EC2, Lambda. 
   code: https://github.com/AAKASHKSHETTY/HeartHealth_NutritionTracker
   image: /assets/images/hea.png
+  technologies:
+    - AWS
+    - Python
+    - Sagemaker
+    - XGBoost
 
 - title: Big Data Churn Analytics
   description: A churn prediction software with big data pipeline including Kafka and spark streaming for log aggregation and Hadoop cluster for data storage.
   code: https://github.com/AAKASHKSHETTY/Big_Data_Music_Churn_Prediction
   image: /assets/images/bdc.png
+  technologies:
+    - Spark
+    - Hadoop
+    - Kafka
 
 - title: Banking Legder Application
   description: A bank ledger system that utilizes the event sourcing pattern to maintain a transaction history. The system allows users to deposit funds, withdraw funds, and check balances.
   code: https://github.com/AAKASHKSHETTY/Banking_Ledger_App
   image: /assets/images/bla.png
+  technologies:
+    - Java
+    - Spring
+    - Maven
+    - JUnit
 
 - title: Markdown Notes Application
   description: A simple and intuitive Markdown-based notepad built with React, HTML, CSS, and JavaScript, using Firebase for backend storage. This application allows users to create, edit, and save notes in Markdown format.
   code: https://github.com/AAKASHKSHETTY/markdown-notes-app-React
   image: /assets/images/mna.png
+  technologies:
+    - React
+    - HTML/CSS
+    - JavaScript
 
 - title: Custom Model for Object detection
-  description: "Build a custom object detection Model using MS COCO dataset, Darknet and Yolo."
+  description: Build a custom object detection Model using MS COCO dataset, Darknet and Yolo.
   code: https://github.com/AAKASHKSHETTY/Custom_Model_for_Object_Detection
   image: /assets/images/cus_obj.jpeg
+  technologies:
+    - Python
+    - Yolov4
+    - MS COCO
 
 - title: Transformer Based Stock Prediction
-  description: We work on the architecture of the Transformer model, specifically tailored for time-series forecasting.
+  description: Worked on the architecture of the Transformer model, specifically tailored for time-series forecasting to predict APPL stock prices.
   code: https://github.com/AAKASHKSHETTY/Transformer_based_Stock_Prediction
   image: /assets/images/tbsp.png
+  technologies:
+    - Python
+    - Tensorflow
+    - Keras
 
 - title: Iris Recognition System
   description: Iris recognition System in python, implemented segmentation, localization, unwrapping, and encoding.
   code: https://github.com/AAKASHKSHETTY/Iris-Recognition
   image: /assets/images/irs.png
+  technologies:
+    - Python
+    - Pandas
+    - OpenCV
+    - Numpy
 
 - title: Alive Museum - AR Museum
   description:  An augmented reality app using ARFoundations and Vuforia in Unity to create a dynamic and interactive museum experience.
   code: https://github.com/AAKASHKSHETTY/Alivebuild-AR_Project
   image: /assets/images/arm.png
+  technologies:
+    - C#
+    - Unity
 
 - title: Music Genre dataset EDA and Modeling
   description:  Model evaluation by comparing the performance of techniques like Gradient Boosting, Logistic Regression, SVM, K-means clustering, and more, using metrics such as accuracy, precision, and recall.
   code: https://github.com/AAKASHKSHETTY/Music_Genre_Prediction-DataAnalysis
   image: /assets/images/mga.png
+  technologies:
+    - R

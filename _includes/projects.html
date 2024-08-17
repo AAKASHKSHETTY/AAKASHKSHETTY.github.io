@@ -1,3 +1,21 @@
+<!-- <div>
+  <h1 class="text-center" id="projects">Projects</h1>
+  <p class="text-center">
+    Below is a list of my notable projects. Have a look at my <a class="#" href="https://github.com/AAKASHKSHETTY" target="_blank">Github</a> Profile.
+  </p>
+  <div class="grid ">
+    {% for project in site.data.projects %}
+    <div class="g-col-12 g-col-md-6 text-center p-3 rounded shadow">
+      <img class="img-fluid rounded" src="{{project.image}}" alt="{{project.description}}">
+      <h3 class="my-3 text-capitalize">{{project.title}}</h3>
+      <p>{{project.description}}</p>
+      <a class="btn btn-success" href="{{project.code}}" target="_blank">Code</a>
+    </div>
+    {% endfor %}
+  </div>
+
+</div> -->
+
 <div>
   <h1 class="text-center" id="projects">Projects</h1>
   <p class="text-center">
@@ -9,6 +27,11 @@
       <img class="img-fluid rounded" src="{{project.image}}" alt="{{project.description}}">
       <h3 class="my-3 text-capitalize">{{project.title}}</h3>
       <p>{{project.description}}</p>
+      <div class="d-flex justify-content-center flex-wrap">
+        {% for tech in project.technologies %}
+        <span class="badge bg-secondary m-1">{{ tech }}</span>
+        {% endfor %}
+      </div>
       <a class="btn btn-success" href="{{project.code}}" target="_blank">Code</a>
     </div>
     {% endfor %}
