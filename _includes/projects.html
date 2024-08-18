@@ -20,7 +20,7 @@
   <!-- Projects Grid -->
   <div class="grid" id="projects-grid">
     {% for project in site.data.projects %}
-    <div class="g-col-12 g-col-md-6 text-center p-3 rounded shadow project-item" data-technologies="{{ project.category | join: '-' }}">
+    <div class="g-col-12 g-col-md-6 text-center p-3 rounded shadow project-item" data-technologies="{{ project.category | join: '_' }}">
       <img class="img-fluid rounded" src="{{project.image}}" alt="{{project.description}}">
       <h3 class="my-3 text-capitalize">{{project.title}}</h3>
       <p>{{project.description}}</p>
@@ -41,7 +41,7 @@
     var projects = document.querySelectorAll('.project-item');
 
     projects.forEach(function(project) {
-      var projectTechs = project.getAttribute('data-technologies').split('-');
+      var projectTechs = project.getAttribute('data-technologies').split('_');
 
       if (tech === 'all' || projectTechs.includes(tech)) {
         project.style.display = 'block';
