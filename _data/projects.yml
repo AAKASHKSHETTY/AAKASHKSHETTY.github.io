@@ -23,8 +23,8 @@
     - Excel
     - sklearn
   category:
-    - Data Science
-    - Data Analytics
+    - Data Analytics/Science
+    
 
 - title: AWS based Heart Health and Nutrition Tracker
   description: Cloud based web app to predict heart diseases and provide personalized dietary suggestions for heart patients. Employed XGBoost in Python along with AWS Sagemaker, ES, EC2, Lambda. 
@@ -50,8 +50,7 @@
     - Kafka
   category:
     - Machine Learning
-    - Data Science
-    - Data Analytics
+    - Data Analytics/Science
 
 - title: Banking Legder Application
   description: A bank ledger system that utilizes the event sourcing pattern to maintain a transaction history. The system allows users to deposit funds, withdraw funds, and check balances.
@@ -98,7 +97,7 @@
     - Keras
   category:
     - Machine Learning
-    - Data Science
+    - Data Analytics/Science
 
 - title: Iris Recognition System
   description: Iris recognition System in python, implemented segmentation, localization, unwrapping, and encoding.
@@ -130,5 +129,4 @@
   technologies:
     - R
   category:
-    - Data Science
-    - Data Analytics
+    - Data Analytics/Science
