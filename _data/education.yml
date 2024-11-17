@@ -1,0 +1,13 @@
+# education
+
+- company: New York University
+  role: Master of Science in Computer Science
+  description: false
+  time: September 2021 - May 2023
+  image: /assets/images/nyu.jpeg
+
+- company: Narsee Monjee Institute of Management Studies (NMIMS)
+  role: Bachelor of Technology in Computer Engineering
+  description: false
+  time: September 2017 - May 2021
+  image: /assets/images/nmims.webp
