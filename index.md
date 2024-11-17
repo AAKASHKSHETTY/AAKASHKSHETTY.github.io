@@ -7,6 +7,9 @@ title: Aakash Shetty
 {% include intro.html %}
 
 <!-- Experience -->
+{% include education.html %}
+
+<!-- Experience -->
 {% include experience.html %}
 
 <!-- Projects -->
