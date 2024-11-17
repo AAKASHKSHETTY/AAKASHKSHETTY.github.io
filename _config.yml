@@ -52,6 +52,8 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
+exclude_from_localization: ["assets","images"]
+
 algolia:
   application_id: OWPETZ9UYV
   index_name: site_search
