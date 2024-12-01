@@ -60,3 +60,4 @@ algolia:
   search_only_api_key: a2056bd20cce65e7c4a939b867d91040S
   
 github: [metadata]
+theme: jekyll-theme-minimal
